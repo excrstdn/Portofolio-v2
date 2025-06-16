@@ -8,28 +8,28 @@ export default {
           id: 1,
           name: 'Smm Nesia',
           imageUrl: '20241125_062029',
-          status: 'Smm Nesia adalah project panel smm yang simpel dan No Login yang terintegrasi ke payment gateway',
+          status: 'Smm Nesia adalah project panel smm yang simpel dan No Login yang terintegrasi ke payment gateway.',
           tech: 'Codeigniter 3, Bootstrap, Vanila CSS, Vanila JS',
-          github: 'null',
-          demo: 'null'
+          github: null,
+          demo: null
         },
         {
           id: 2,
           name: 'Frey App',
           imageUrl: '20241125_062516',
-          status: 'Frey App adalah sebuah website penyedia api tools serba guna.'',
+          status: 'Frey App adalah sebuah website penyedia API tools serba guna.',
           tech: 'Codeigniter 3, Bootstrap',
-          github: 'null',
-          demo: 'null'
+          github: null,
+          demo: null
         },
         {
           id: 3,
-          name: 'Anime Streming',
+          name: 'Anime Streaming',
           imageUrl: 'animestrem',
-          status: 'Streming anime sub indo gratis',
-          tech: 'ReactJs',
-          github: 'null',
-          demo: 'null'
+          status: 'Streaming anime sub indo gratis.',
+          tech: 'ReactJS',
+          github: null,
+          demo: null
         }
       ]
     };
