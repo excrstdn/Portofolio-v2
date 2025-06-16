@@ -107,14 +107,14 @@
         },
         {
           id: 8,
-          name: 'Hardhat',
-          imageUrl: 'https://seeklogo.com/images/H/hardhat-logo-888739EBB4-seeklogo.com.png',
-          status: 'Smart Contract Development'
+          name: 'Phantom',
+          imageUrl: 'https://i.postimg.cc/VNQCYMCt/images-2.png',
+          status: 'Web3 Wallet'
         },
         {
           id: 9,
           name: 'Metamask',
-          imageUrl: 'https://seeklogo.com/images/M/metamask-logo-09EDE53DBD-seeklogo.com.png',
+          imageUrl: 'https://cdn.iconscout.com/icon/free/png-512/free-metamask-logo-icon-download-in-svg-png-gif-file-formats--browser-extension-chrome-logos-icons-2261817.png',
           status: 'Web3 Wallet'
         },
         {
