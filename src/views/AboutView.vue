@@ -1,15 +1,14 @@
 <script>
-export default {
+  export default {
   data() {
     return {
       activeTab: 1,
-      tech: [
-        {
-          id: 1,
-          name: 'HTML',
-          imageUrl: 'https://cdn-icons-png.flaticon.com/512/1051/1051277.png',
-          status: 'Advanced'
-        },
+      tech: [{
+        id: 1,
+        name: 'HTML',
+        imageUrl: 'https://cdn-icons-png.flaticon.com/512/1051/1051277.png',
+        status: 'Advanced'
+      },
         {
           id: 2,
           name: 'CSS',
@@ -37,53 +36,39 @@ export default {
         {
           id: 6,
           name: 'Codeigniter',
-          imageUrl: 'https://cdn-peanutsquare.b-cdn.net/wp-content/uploads/2022/11/codeigniter-logo.png',
+          imageUrl: 'https://codeigniter.com/assets/icons/44521256.png',
           status: 'Intermediate'
         },
         {
           id: 7,
-          name: 'VueJS',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png?f=webp',
-          status: 'Intermediate'
-        },
-        {
-          id: 8,
-          name: 'AlpineJS',
-          imageUrl: 'https://avatars.githubusercontent.com/u/59030169?s=200&v=4',
-          status: 'Beginner'
-        },
-        {
-          id: 9,
           name: 'NodeJS',
           imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-node-js-1174925.png',
           status: 'Beginner'
         },
         {
-          id: 10,
+          id: 8,
           name: 'Tailwind',
           imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg',
           status: 'Advance'
         },
         {
-          id: 11,
+          id: 9,
           name: 'Bootstrap',
           imageUrl: 'https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png',
           status: 'Intermediate'
         },
         {
-          id: 12,
+          id: 10,
           name: 'ReactJS',
           imageUrl: 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png',
           status: 'Beginner'
-        }
-      ],
-      tools: [
-        {
-          id: 1,
-          name: 'Git',
-          imageUrl: 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png',
-          status: 'Version Control'
-        },
+        }],
+      tools: [{
+        id: 1,
+        name: 'Git',
+        imageUrl: 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png',
+        status: 'Version Control'
+      },
         {
           id: 2,
           name: 'GitHub',
@@ -102,10 +87,46 @@ export default {
           imageUrl: 'https://cdn-icons-png.flaticon.com/512/5968/5968313.png',
           status: 'Database'
         },
-      ]
+        {
+          id: 5,
+          name: 'Ubuntu',
+          imageUrl: 'https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png',
+          status: 'Operating System'
+        },
+        {
+          id: 6,
+          name: 'VS Code',
+          imageUrl: 'https://cdn-icons-png.flaticon.com/512/906/906324.png',
+          status: 'Code Editor'
+        },
+        {
+          id: 7,
+          name: 'Postman',
+          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-postman-3521648-2945092.png',
+          status: 'API Testing'
+        },
+        {
+          id: 8,
+          name: 'Hardhat',
+          imageUrl: 'https://seeklogo.com/images/H/hardhat-logo-888739EBB4-seeklogo.com.png',
+          status: 'Smart Contract Development'
+        },
+        {
+          id: 9,
+          name: 'Metamask',
+          imageUrl: 'https://seeklogo.com/images/M/metamask-logo-09EDE53DBD-seeklogo.com.png',
+          status: 'Web3 Wallet'
+        },
+        {
+          id: 10,
+          name: 'Docker',
+          imageUrl: 'https://www.docker.com/wp-content/uploads/2022/03/horizontal-logo-monochromatic-white.png',
+          status: 'Containerization'
+        }]
+
     };
   }
-}
+  }
 </script>
 <template>
   <div
@@ -124,22 +145,21 @@ export default {
         class="text-sm md:text-lg text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center">
         <div class="flex justify-center">
           <img class="w-9/12 rounded-full mb-3 fadein-up"
-            src="https://i.postimg.cc/GtzTc51g/f236b5f2-55c6-4fc2-9961-d2f5e9ffb902.jpg" alt="Foto">
+          src="https://i.postimg.cc/GtzTc51g/f236b5f2-55c6-4fc2-9961-d2f5e9ffb902.jpg" alt="Foto">
         </div>
         <div class="md:w-7/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
-  &nbsp; &nbsp; &nbsp; Hi everyone! My name is Gen. I'm a multi-role tech explorer working at the intersection of code, community, and crypto. 
-  I rotate between being a Web Developer, Back-end Engineer, Web3 Enthusiast, Community Moderator, Blockchain Ambassador, DApp Tester, and Crypto Researcher.
-</p>
-<p class="mb-3 fadein-left fadeins-2">
-  &nbsp; &nbsp; &nbsp; With strong technical skills and a community-first mindset, I’ve built launch strategies, optimized smart contracts, and tested cutting-edge dApps. 
-  My current initiative, <strong>Rocket Raccoon</strong>, reimagines brand and liquidity alignment through Web3. I believe in fast shipping, transparent growth, and decentralization.
-</p>
-<p class="mb-3 fadein-left fadeins-3">
-  &nbsp; &nbsp; &nbsp; My goal is to bridge creativity with technology — turning ideas into decentralized products that empower communities. 
-  Let’s collaborate and build the future of the web together. You can reach out to me through the contact section below.
-</p>
-
+            &nbsp; &nbsp; &nbsp; Hi everyone! My name is Gen. I’m a curious mind navigating the digital frontier — exploring how code, community, and creativity converge to shape the world.
+            I’ve worn many hats: Web Developer, Back-end Engineer, Web3 Enthusiast, Community Moderator, Blockchain Ambassador, DApp Tester, and Crypto Researcher.
+          </p>
+          <p class="mb-3 fadein-left fadeins-2">
+            &nbsp; &nbsp; &nbsp; For me, technology is not just about systems or efficiency — it’s a language for expressing ideas, a medium for building trust, and a tool for questioning centralization.
+            My latest initiative, <strong>Rocket Raccoon</strong>, is not just a project, but a symbol of transformation — where brand, liquidity, and identity evolve through decentralized vision.
+          </p>
+          <p class="mb-3 fadein-left fadeins-3">
+            &nbsp; &nbsp; &nbsp; As a human being in a world driven by data and automation, I believe in staying grounded: embracing mistakes, learning openly, and creating not just for users, but for people.
+            I see the web not just as a network of information, but as a canvas for thought — and I’m here to contribute meaningfully to it.
+          </p>
         </div>
 
       </section>
@@ -176,15 +196,21 @@ export default {
                 class="item-tech flex cursor-pointer items-center gap-2 rounded border border-amber-200 px-2 py-2 hover:bg-amber-200 hover:bg-opacity-10 md:gap-3 lg:px-3">
                 <div class="flex h-12 w-12 items-center justify-center p-0 lg:h-16 lg:w-16 lg:p-2 zoom-in">
                   <img alt="HTML" loading="lazy" width="32" height="32" decoding="async" data-nimg="1"
-                    class="img-tech drop-shadow-xl transition-all duration-300 h-[65%] w-[65%] lg:h-[85%] lg:w-[85%]  "
-                    :src="item.imageUrl" style="color: transparent;">
+                  class="img-tech drop-shadow-xl transition-all duration-300 h-[65%] w-[65%] lg:h-[85%] lg:w-[85%]  "
+                  :src="item.imageUrl" style="color: transparent;">
                 </div>
                 <div class="flex items-center text-sm md:text-base lg:text-lg">
-                  <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0 ">{{ item.name }}
+                  <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0 ">
+                    { {
+                      item.name
+                    }}
                   </div>
                   <div
                     class="status-tech opacity-0 absolute mt-5 text-[10px] text-amber-200 transition-all duration-300 md:text-xs lg:text-sm">
-                    {{ item.status }}</div>
+                    { {
+                      item.status
+                    }}
+                  </div>
                 </div>
               </div>
             </div>
@@ -197,15 +223,21 @@ export default {
                 class="item-tech flex cursor-pointer items-center gap-2 rounded border border-amber-200 px-2 py-2 hover:bg-amber-200 hover:bg-opacity-10 md:gap-3 lg:px-3">
                 <div class="flex h-12 w-12 items-center justify-center p-0 lg:h-16 lg:w-16 lg:p-2 zoom-in">
                   <img alt="HTML" loading="lazy" width="32" height="32" decoding="async" data-nimg="1"
-                    class="img-tech drop-shadow-xl transition-all duration-300 h-[65%] w-[65%] lg:h-[85%] lg:w-[85%]  "
-                    :src="item.imageUrl" style="color: transparent;">
+                  class="img-tech drop-shadow-xl transition-all duration-300 h-[65%] w-[65%] lg:h-[85%] lg:w-[85%]  "
+                  :src="item.imageUrl" style="color: transparent;">
                 </div>
                 <div class="flex items-center text-sm md:text-base lg:text-lg">
-                  <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0 ">{{ item.name }}
+                  <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0 ">
+                    { {
+                      item.name
+                    }}
                   </div>
                   <div
                     class="status-tech opacity-0 absolute mt-5 text-[10px] text-amber-200 transition-all duration-300 md:text-xs lg:text-sm">
-                    {{ item.status }}</div>
+                    { {
+                      item.status
+                    }}
+                  </div>
                 </div>
               </div>
             </div>
@@ -217,12 +249,12 @@ export default {
 </template>
 
 <style>
-.fadein-left {
+  .fadein-left {
   opacity: 0;
   animation: fadeInLeft 0.5s ease-out forwards;
-}
+  }
 
-@keyframes fadeInLeft {
+  @keyframes fadeInLeft {
   0% {
     opacity: 0;
     transform: translateX(100%);
@@ -232,30 +264,30 @@ export default {
     opacity: 1;
     transform: translateX(0);
   }
-}
+  }
 
-.fadeins-1 {
+  .fadeins-1 {
   animation-delay: 500ms;
-}
+  }
 
-.fadeins-2 {
+  .fadeins-2 {
   animation-delay: 800ms;
-}
+  }
 
-.img-tech,
-.tech {
+  .img-tech,
+  .tech {
   transition: transform 0.3s ease;
-}
+  }
 
-.item-tech:hover .img-tech {
+  .item-tech:hover .img-tech {
   transform: scale(1.3);
-}
+  }
 
-.item-tech:hover .tech {
+  .item-tech:hover .tech {
   transform: translateY(-12px);
-}
+  }
 
-.item-tech:hover .status-tech {
+  .item-tech:hover .status-tech {
   opacity: 1;
-}
+  }
 </style>
