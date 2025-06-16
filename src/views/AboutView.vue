@@ -228,15 +228,11 @@
                 </div>
                 <div class="flex items-center text-sm md:text-base lg:text-lg">
                   <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0 ">
-                    { {
-                      item.name
-                    }}
+                    {{ item.name }}
                   </div>
                   <div
                     class="status-tech opacity-0 absolute mt-5 text-[10px] text-amber-200 transition-all duration-300 md:text-xs lg:text-sm">
-                    { {
-                      item.status
-                    }}
+                    {{ item.status }}
                   </div>
                 </div>
               </div>
